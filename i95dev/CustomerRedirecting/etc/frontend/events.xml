@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="customer_login">
+        <observer name="i95dev_customer_redirecting_after_logging_in" instance="I95Dev\CustomerRedirecting\Observer\CustomerLogin" />
+    </event>
+</config>
